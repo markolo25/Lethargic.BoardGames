@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lethargic.BoardGames.Model\Lethargic.BoardGames.Model.csproj" />
+    <ProjectReference Include="..\Lethargic.BoardGames.View\Lethargic.BoardGames.View.csproj" />
+  </ItemGroup>
+
 </Project>
